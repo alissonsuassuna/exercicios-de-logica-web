@@ -1,0 +1,19 @@
+html {
+    height: 100%;
+    width: 100%;
+ 
+  }
+
+/* Destacando a primeira linha (campeão) */
+tr:first-child {
+  background-color: #d9f993; /* Verde claro */
+  color: #006400; /* Verde escuro */
+  font-weight: bold;
+}
+
+/* Destacando a última linha (lanterna) */
+tr:last-child {
+  background-color: #f9f9f9; /* Cinza claro */
+  color: #b32d00; /* Vermelho */
+  font-weight: bold;
+}
