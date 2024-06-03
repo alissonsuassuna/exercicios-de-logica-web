@@ -1,0 +1,24 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+div {
+  background-color: pink;
+  height: 50px;
+  margin: 4px;
+}
+
+.content-box, .border-box {
+  width: 200px;
+  border: 4px solid #ccc;
+  padding: 12px;
+}
+
+.content-box {
+  box-sizing: content-box; /* Tamanho da caixa = largura do conteúdo */
+}
+
+.border-box {
+  box-sizing: border-box; /* Tamanho da caixa = largura + borda + padding */
+}

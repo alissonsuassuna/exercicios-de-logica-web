@@ -1,0 +1,1 @@
+crie uma lista de itens utilizando as tags de lista não-ordenada e estilize os itens pares e ímpares de forma diferente usando os seletores nth-child(even) e nth-child(odd).

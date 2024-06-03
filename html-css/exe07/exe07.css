@@ -1,0 +1,28 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.left-align h2:first-child {
+  text-align: right;
+}
+
+.left-align p:nth-child(2) {
+  text-align: right;
+}
+
+.left-align p:nth-child(3) {
+  color: blue;
+}
+
+.left-align p:nth-child(6) {
+  color: blue;
+}
+
+.left-align p:nth-child(7) {
+  font-weight: bold;
+}
+
+div p:first-child {
+  text-align: center;
+}

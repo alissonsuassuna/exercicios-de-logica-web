@@ -1,0 +1,53 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.caixa {
+  width: 300px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+h2 {
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  padding: 10px;
+  line-height: 1.5;
+}
+
+/* Cores das caixas */
+#caixa1 {
+  background-color: #e21b1b; /* px */
+}
+
+#caixa2 {
+  background-color: #1d7d3f; /* em */
+  font-size: 16px; /* Defina o tamanho da fonte para a caixa */
+}
+
+#caixa3 {
+  background-color: #2c2800; /* rem */
+  font-size: 1.2rem; /* Defina o tamanho da fonte para a caixa */
+}
+
+#caixa4 {
+  background-color: #5b045c; /* % */
+  width: 50%; /* 50% da largura do container pai */
+}
+
+#caixa5 {
+  background-color: #353030; /* vw */
+  width: 50vw; /* 50% da largura da viewport */
+}
+
+#caixa6 {
+  background-color: #154cc1; /* vh */
+  height: 50vh; /* 50% da altura da viewport */
+}

@@ -1,0 +1,52 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0px;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  color: rgb(219, 5, 5);
+}
+
+#div01, #div02, #div03 {
+  margin-left: 20px; /* Distancia da esquerda */
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#div01 {
+  margin-bottom: 12px; /* Distância da div 02 */
+}
+
+#div02 {
+  margin-bottom: 4px; /* Distância da div 03 */
+}
+
+#div01 h2, #div02 h2, #div03 h2 {
+  margin: 0; /* Remove margens padrão dos títulos */
+  padding: 10px 0; /* Adiciona padding em cima e em baixo */
+  text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+#div01 p, #div02 p, #div03 p {
+  text-align: center; /* Centraliza o texto horizontalmente */
+  padding: 8px; /* Distancia o conteúdo das bordas */
+}
+
+#div01 {
+  background-color: #f0f0f0; /* Cor de fundo da div 01 */
+}
+
+#div02 {
+  background-color: #e0e0e0; /* Cor de fundo da div 02 */
+}
+
+#div03 {
+  background-color: #d0d0d0; /* Cor de fundo da div 03 */
+}

@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Estilos para links */
+a {
+    text-decoration: none; /* Remove a sublinhado padrão dos links */
+    color: #007bff; /* Cor azul para links */
+    padding: 5px 10px;
+    border: 1px solid transparent;
+}
+
+/* Estilos para links quando o mouse passa por cima (hover) */
+a:hover {
+    background-color: #0056b3; /* Cor azul escuro no hover */
+    color: white; /* Texto branco no hover */
+}
+
+a[href^="http"]:not([href*="localhost"]) {
+    color: #dc3545; /* Cor vermelha para links externos */
+    border: 1px solid #dc3545; /* Borda vermelha para links externos */
+}
